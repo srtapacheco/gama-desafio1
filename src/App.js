@@ -1,5 +1,15 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import imagePrinc from './image-template.png'
+ 
+
+function msgConfirmacao()
+{
+  alert("Email enviado!");
+}
+ 
+
 
 function App() {
   return (
