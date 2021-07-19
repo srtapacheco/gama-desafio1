@@ -5,5 +5,8 @@ import App from './App';
 ReactDOM.render(
     <App title='Hello' user='Gama Academy'/>,
   document.getElementById('root')
+  
 );
+
+
 

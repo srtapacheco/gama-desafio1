@@ -21,11 +21,60 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+img{
+  width: 900px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.banner {
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  -o-box-shadow:      12px 2px 29px #555;
+  -icab-box-shadow:   12px 12px 29px #555;
+  -khtml-box-shadow:  12px 12px 29px #555;
+  -moz-box-shadow:    12px 12px 29px #555;
+  -webkit-box-shadow: 12px 12px 29px #555;
+  box-shadow:         12px 12px 29px #555;
+}
  
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
   max-width: 1600px;
-  font-family: 'Roboto';
+  font-family: 'Helvetica';
 }
+
+
+#menu ul {
+  padding:10px;
+  margin:0px;
+  background-color:#EDEDED;
+  list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+
+#menu ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+
+  /* visual do link */
+  background-color:#EDEDED;
+  color: #333;
+  text-decoration: none;
+  border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+  background-color:#D6D6D6;
+  color: #6D6D6D;
+  border-bottom:3px solid #ea00ea;
+}
+
